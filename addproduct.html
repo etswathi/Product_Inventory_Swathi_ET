@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/addproduct.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="check" />
+    <header>
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+        <div class="box">
+          <table class="element">
+            <tr>
+              <td>
+                <h3
+                  style="
+                    color: lightgoldenrodyellow;
+                    text-align: center;
+                    margin-top: 6px;
+                  "
+                >
+                  Add Product
+                </h3>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </label>
+      <div class="left_area">
+        <h3><span>Shoppify.com</span></h3>
+      </div>
+
+      <div class="right_area">
+        <a href="#" class="logout_btn">Logout</a>
+      </div>
+    </header>
+    <div class="sidebar">
+      <center>
+        <img
+          src="./images/pexels-photo-396547.jpeg"
+          class="image"
+          alt="image"
+        />
+        <h4>Jessica</h4>
+      </center>
+      <a href="#"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
+      <a href="#"><i class="fas fa-sign-out-alt"></i><span>Signout</span></a>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="content">
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <div class="wrap">
+        <h3>Add new Product</h3>
+        <form>
+          <input type="text" placeholder="Product Name" required />
+          <input type="text" placeholder="Product ID" required />
+          <input type="text" placeholder="Category" required />
+          <input type="text" placeholder="Quantity Available" required />
+          <input type="text" placeholder="Price" required />
+          <input type="submit" value="Add" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
